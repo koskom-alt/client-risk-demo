@@ -1,0 +1,17 @@
+{
+  "id": "asddsadsa",
+  "specversion": "0.3",
+  "source": "IBSO",
+  "type": "answers",
+  "kogitobusinesskey": "test_businessKey4",
+  "correlation": [
+    {
+      "contextAttributeName": "kogitobusinesskey"
+    }
+  ],
+  "data":
+  {
+    "id": "1112",
+    "fault": "true"
+  }
+}

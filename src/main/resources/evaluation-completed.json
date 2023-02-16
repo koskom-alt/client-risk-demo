@@ -1,0 +1,20 @@
+{
+  "id": "asddsadsa2",
+  "specversion": "0.3",
+  "source": "DIASOFT",
+  "type": "requests",
+  "kogitobusinesskey": "test_businessKey4",
+  "correlation": [
+    {
+      "contextAttributeName": "kogitobusinesskey"
+    }
+  ],
+  "data":
+  {
+      "id": "1122",
+      "tradeDate": "2022-11-13",
+      "signCalculation": "CALCULATION",
+      "evaluationType": "ESTIMATION_FOR_KPUR_STATUS",
+      "completed": "FINISHED"
+  }
+}
