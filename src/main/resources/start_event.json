@@ -1,8 +1,8 @@
 {
   "id": "1d425d29-ea51-44bb-8e3b-fac514e8e0b6",
   "source": "",
-  "type": "error",
-  "data":{
+  "type": "requests",
+  "data": {
     "id": "1d425d29-ea51-44bb-8e3b-fac514e8e0b6",
     "error": {
       "id": "11",
@@ -11,7 +11,8 @@
   },
   "specversion": "1.0",
   "kogitoprocinstanceid": "1d425d29-ea51-44bb-8e3b-fac514e8e0b6",
-  "kogitoprocrefid": "7c2f6ee3-60f3-458d-aa04-9e6f31af28c2",
-  "kogitoprocid": "mfhs",
+  "kogitoprocrefid": "1d425d29-ea51-44bb-8e3b-fac514e8e0b4",
+  "kogitobusinesskey": "test_bk2",
+  "kogitoprocid": "async",
   "kogitousertaskist": "1"
 }

@@ -1,0 +1,11 @@
+{
+  "id": "6e3364bf-b91f",
+  "source": "",
+  "type": "response_from_service",
+  "data": {
+    "some": "value"
+  },
+  "specversion": "1.0",
+  "kogitoprocid": "example",
+  "kogitoprocrefid": "51eefeab-4c23-4b50-89bb-11edf0d9ec2f"
+}

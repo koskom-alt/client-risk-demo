@@ -16,9 +16,12 @@ import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
-@ApplicationScoped
 public class StartRoute extends RouteBuilder {
+    @Override
+    public void configure() throws Exception {
 
+    }
+    /*
     @Inject
     ProcessorFactory processorFactory;
 
@@ -48,12 +51,12 @@ public class StartRoute extends RouteBuilder {
                 //.to("kogito:start")
         ;
 
-        from("kafka:errors")
+        from("kafka:error_req")
                 .routeId("CAMEL.REQ.EVENT")
                 .unmarshal().json(Request.class)
                 .log(LoggingLevel.INFO, "incoming message ${body}")
                 .process(eventProcessor)
-        //.to("kogito:start")
+        .to("kogito:start")
         ;
-    }
+    }*/
 }

@@ -1,0 +1,13 @@
+{
+  "id": "1d425d29-ea51-44bb-8e3b-fac514e8e0b6",
+  "source": "",
+  "type": "requests",
+  "data": {
+    "id": "1",
+    "color": "blue",
+    "size": 5
+  },
+  "specversion": "1.0",
+  "kogitobusinesskey": "test_bk1",
+  "kogitoprocid": "example"
+}
